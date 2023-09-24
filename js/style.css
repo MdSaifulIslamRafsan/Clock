@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 40px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.myWatch{
+  padding: 30px;
+  border: 8px solid rgb(255, 98, 0);
+  box-shadow: 3px 5px 10px 14px #aca7a7;
+  background-color: #1d1c1c;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.position{
+  text-align: center;
+}
+.H , .M{
+  letter-spacing: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+.H{
+  background-color: rgb(15, 159, 207);
+ color: rgb(244, 232, 10);
+}
+.M{
+  background-color:  rgb(244, 232, 10);
+  color: rgb(15, 159, 207);
+}
+.date{
+  color: white;
+}
